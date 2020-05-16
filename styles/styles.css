@@ -1,0 +1,53 @@
+body {
+
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    
+      
+}
+
+.text-contents { 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px; 
+    width: 750px;
+    box-shadow: 1px 10px 30px lightgray;
+    text-align: center;
+    align-content: center;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.top-text {
+
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 30px;
+
+}
+
+.top-title {
+
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+
+}
+
+.top-heading { 
+
+    color: hsl(71, 73%, 54%)
+
+}
+
+.top-body { 
+
+    color: lightgray;
+
+}
+
+p span {
+    display: block;
+  }
