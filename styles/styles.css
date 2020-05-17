@@ -1,10 +1,7 @@
 body {
-
     background-color: hsl(204, 43%, 93%);
     font-family: 'Karla', sans-serif;
-    font-size: 16px;
-    
-      
+    font-size: 16px;  
 }
 
 .text-contents { 
@@ -23,8 +20,8 @@ body {
 .top-text {
 
     text-align: left;
-    margin-left: 30px;
-    margin-top: 30px;
+    margin-left: 35px;
+    margin-top: 35px;
 
 }
 
@@ -50,4 +47,76 @@ body {
 
 p span {
     display: block;
+  }
+
+  p span1 {
+    display: inline;
+  }
+
+  .container {
+    display: grid;
+    width: 748px;
+    padding-left: 0;
+    padding-right: 0;
+    
+  }
+
+  .bottom-left {
+    background-color: hsl(179, 62%, 43%);
+    grid-column: 1;
+    width: 375px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .bottom-right {
+    background-color:  hsl(179, 49%, 55%);
+    grid-column: 2;
+    width: 374px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .bottom-text { 
+      color: hsl(204, 43%, 93%);
+      font-size: 16px;
+
+  }
+
+  .bottom-left-text {
+    font-weight: 700; 
+    text-align: left; 
+    margin-left: 35px;
+  }
+
+  .bottom-left-body {
+    font-weight: 400; 
+    text-align: left; 
+    margin-left: 35px;
+  }
+
+  .bottom-right-body {
+    font-weight: 400; 
+    text-align: left; 
+    margin-left: 35px;
+    opacity: 0.9;
+  }
+
+  .dollar {
+        font-size: 30px;
+        font-weight: 700; 
+        text-align: left; 
+  }
+
+  .sign-up {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 50px;
+    box-shadow: 1px 2px 15px rgb(111, 116, 122);
+    text-align: center;
+    vertical-align: center;
+    line-height: 50px; 
+    align-content: center;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: hsl(71, 73%, 54%);
   }
